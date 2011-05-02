@@ -1,4 +1,4 @@
-# Bloody jQuery Plugins 
+# JQuery Utilities
 
 A small collection of useful functionality available by default in Dojo, though useful in plain-ole-JavaScript context.
 
