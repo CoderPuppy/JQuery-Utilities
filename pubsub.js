@@ -9,7 +9,7 @@
 
 */	
 
-;(function(d){
+function pubsub(d){
 
 	// the topic/subscription hash
 	var cache = {};
@@ -72,6 +72,8 @@
 			}
 		});
 	};
+  return d;
+}
 
-})(jQuery);
-
+if(jQuery)
+ pubsub(jQuery);
